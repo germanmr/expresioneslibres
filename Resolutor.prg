@@ -3,6 +3,8 @@ DIMENSION aConceptos(2),aReglas(2),aConceptosIngresados(2)
 
 oResolutor=CREATEOBJECT("Resolutor") 
 
+* Cambio algo
+
 oCodigoPrestacion=CREATEOBJECT("Concepto",1,"Codigo Prestacion","lCodigoPrestacion","C")
 aConceptos(1)=oCodigoPrestacion
 oCodigoObraSocial=CREATEOBJECT("Concepto",2,"Codigo Obra Social","lCodigoObraSocial","N")
