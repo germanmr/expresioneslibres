@@ -22,3 +22,15 @@ DEFINE CLASS Pais AS Custom
 	ENDPROC
 	
 ENDDEFINE
+
+
+DEFINE CLASS MapElement AS Custom
+	clave=""
+	valor=""
+	
+	PROCEDURE INIT(pClave,pValor)
+		THIS.clave=pClave
+		THIS.valor=pValor
+	ENDPROC
+	
+ENDDEFINE
