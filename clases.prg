@@ -1,16 +1,34 @@
 
+* Esto representa un componente de una expresion, concepto, operador 
 DEFINE CLASS Elemento AS Custom
-	tipo=""
+	* Codigo identificatorio del elemento
 	codigo=""
+	* Valor del mismo
 	valor=""
+	* Tipo de dato VFP(VARTYPE()) del mismo
+	tipo=""
 	
 	PROCEDURE INIT(pTipo,pCodigo,pValor)
 		THIS.tipo=pTipo
 		THIS.codigo=pCodigo
 		THIS.valor=pValor
 	ENDPROC
-	
+
 ENDDEFINE
+
+*!*	DEFINE CLASS Concepto as Custom 
+*!*		
+*!*		* El tipo de VFP(VARTYPE()) del concepto
+*!*		tipo=""
+*!*		elemento=.NULL.
+*!*		
+*!*		PROCEDURE INIT(pTipo,pElemento)
+*!*			THIS.tipo=pTipo
+*!*			THIS.elemento=pElemento
+*!*		ENDPROC
+*!*		
+*!*	ENDDEFINE
+
 
 DEFINE CLASS Pais AS Custom
 	codigo=""
