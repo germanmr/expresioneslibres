@@ -48,7 +48,23 @@ CodigoConvenio=8 Y INLIST(codigoPrestacion,'340205','340206','340207','340208'),
 CodigoConvenio=8 Y !INLIST(codigoPrestacion,'340205','340206','340207','340208'), CodigoObraSocial=67
 CodigoConvenio=12 Y CodigoPlanAfiliado=1, CodigoObraSocial=27
 CodigoConvenio=12 Y INLIST(CodigoPlanAfiliado,2,3), CodigoObraSocial=125
-CodigoConvenio=18 Y INLIST(CodigoPlanAfiliado,611,612,613,614,615,616,617,618,619,620) .OR. INLIST(CodigoPlanAfiliado,621,622,623,624,625,630,631,632,633,634,635,636,637,638,641,642,643,644) Y AfiliadoGravadoIva, CodigoObraSocial=190
+
+CodigoConvenio=18 Y 
+	CodigoPlanAfiliado,611,612,613,614,615,616,617,618,619,620,621,622,623,624,625,630,631,632,633,634,635,636,637,638,641,642,643,644
+	Y AfiliadoGravadoIva, CodigoObraSocial=190
+
 CodigoConvenio=18 Y INLIST(CodigoPlanAfiliado,611,612,613,614,615,616,617,618,619,620) .OR. INLIST(CodigoPlanAfiliado,621,622,623,624,625,630,631,632,633,634,635,636,637,638,641,642,643,644) Y AfiliadoGravadoIva, CodigoObraSocial=192
 CodigoConvenio=18 Y INLIST(CodigoPlanAfiliado,608,609,610,627,628,629,640) Y AfiliadoGravadoIva,CodigoObraSocial=191
 CodigoConvenio=18 Y INLIST(CodigoPlanAfiliado,608,609,610,627,628,629,640) Y NO AfiliadoGravadoIva, CodigoObraSocial=193
+
+
+
+CodigoConvenio,
+codigoEspecialidadEfector,
+codigoPrestacion,
+CodigoObraSocial,
+CodigoProfesionPrestador, 
+MatriculaProfesionalPrestador,
+CodigoPlanAfiliado,
+CodigoObraSocial,
+AfiliadoGravadoIva,
