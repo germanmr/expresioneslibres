@@ -7,6 +7,7 @@
 .cfg_:txt
 .cfg:txt
 .prg:txt
+.PRG:txt
 .pj2:txt
 .vc2:txt
 .sc2:txt
