@@ -1,4 +1,4 @@
 expresioneslibres
 =================
 
-este proyecto es para poer dinir condiciones logicas y resultados enbase a conceptos y operaciones genrales
+Este proyecto es para poder definir condiciones logicas y resultados en base a conceptos y operaciones generales
